@@ -1,5 +1,7 @@
 # README
+
 This is the code repository for ResMoE of Switch Transformer and Mixtral. The checkpoint and the corresponding class will be made public once the paper got accepted.
+
 ## Switch Transformer
 
 Use the scripts switch/finetune.py for finetuning. The model is default to 'switch-base-8'. Please specify the dataset's name or will be default to 'sst2'. For switch, please choose from the GLUE datasets (sst2, mrpc, cola, mnli).
